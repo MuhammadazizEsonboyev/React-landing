@@ -60,12 +60,16 @@ export default function Main () {
               component='div'
               sx={{ display: 'flex', justifyContent: 'space-between' }}
             >
-              <a href='https://payme.uz/621b48f24f819be147cea688'>
+              <a
+                style={{ textDecoration: 'none' }}
+                href='https://payme.uz/621b48f24f819be147cea688'
+              >
                 <Button variant='outlined' endIcon={<SendIcon />}>
                   Click
                 </Button>
               </a>
               <a
+                style={{ textDecoration: 'none' }}
                 href='https://my.click.uz/clickp2p/E0BAE513BD4F7DB642E63A8C507AEA959DC18321117AEB517D42CEFC032296B0'
               >
                 <Button variant='outlined' endIcon={<SendIcon />}>
