@@ -95,11 +95,11 @@ export default function Main () {
             border: '2px solid white',
             background: 'transparent',
             width: '100%',
-            height: '40px',
+            height: '100%',
             borderRadius: '4px',
             marginBottom: '50px',
             color: 'white',
-            fontSize: '13px'
+            fontSize: '13px',
           }}
           onClick={handleOpen}
         >
