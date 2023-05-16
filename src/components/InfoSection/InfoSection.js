@@ -55,8 +55,6 @@ const InfoSection = ({
                 border: '2px solid gray',
                 padding: '20px',
                 borderRadius: '5px',
-                background: "indigo",
-                // color: "indigo"
               }}
             >
               <TextWrapper >

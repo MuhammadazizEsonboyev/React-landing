@@ -61,7 +61,7 @@ function Navbar () {
           <NavbarContainer>
             <NavLogo to='/'>
               <NavIcon />
-              ULTRA
+              
             </NavLogo>
             <HamburgerIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

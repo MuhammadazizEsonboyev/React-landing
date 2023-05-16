@@ -6,7 +6,6 @@ import { IconContext } from 'react-icons/lib';
 import {
   PricingSection,
   PricingWrapper,
-  PricingHeading,
   PricingContainer,
   PricingCard,
   PricingCardInfo,
@@ -17,13 +16,14 @@ import {
   PricingCardFeatures,
   PricingCardFeature
 } from './Pricing.elements';
+import Main from '../Main/Main';
 
  const Pricing = () => {
   return (
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Our Services</PricingHeading>
+          <Main/>
           <PricingContainer>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
