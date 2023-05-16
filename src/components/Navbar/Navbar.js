@@ -29,11 +29,6 @@ function Navbar() {
         setProductsClick(false);
         setServicesClick(false);
     }
-    const handleServicesClick = () => {
-        setHomeClick(false);
-        setProductsClick(false);
-        setServicesClick(true);
-    }
     const handleProductsClick = () => {
         setHomeClick(false);
         setProductsClick(true);
@@ -77,14 +72,6 @@ function Navbar() {
                                 Home
                             </NavLinks>
                         </NavItem>
-                    
-                    
-                        <NavItem onClick={handleServicesClick} servicesClick={servicesClick}>
-                            <NavLinks to='/services' onClick={closeMobileMenu}>
-                                Services
-                            </NavLinks>
-                        </NavItem>
-                    
                     
                         <NavItem onClick={handleProductsClick} productsClick={productsClick}>
                             <NavLinks to='/Products' onClick={closeMobileMenu}>

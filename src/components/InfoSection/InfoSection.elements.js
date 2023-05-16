@@ -45,11 +45,11 @@ export const TextWrapper = styled.div`
   padding-bottom: 60px;
 
   @media (min-width: 480px) and (max-width: 1200px) {
-    padding-bottom: 65px;
+    padding-bottom: 35px;
   }
 
   @media (min-width: 320px) and (max-width: 480px) {
-    padding-bottom: 65px;  
+    padding-bottom: 15px;  
   }
 `;
 
