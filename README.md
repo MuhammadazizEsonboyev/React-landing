@@ -1,34 +1,24 @@
-# React JS Landing Page Template
+# Product Landing Page Template
 
-**
+This gorgeous responsive website is a static landing page built with React, styled-components, react-router, and react hooks. All the components are reusable and can be used for any dynamic content. It's fully responsive for all the platforms and hosted using Netlify
 
-# 🛎️🛎️ Good news! New & improved [V2](https://github.com/issaafalkattan/react-landing-page-template-2021) is out  
+# Description 
 
-**
-
-
-### <a href="https://react-landing-page-template-93ne.vercel.app/">LIVE DEMO</a> 
-
-## Description
-This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-All 'visual' data can be easily modified by changing the data.json file.
-
-## Make it Yours!
-### 1. Preps
-You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
-
-### 2. Clone Files
-After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
-### 3. Add your own data 
-Change the data in the ```data.json``` file as well as add any images to ```public/img/```
-You can also change styles by modifying the ```public/css``` files.
+This is a static landing page ususally used for marketting of products. You can navigate to different pages possible due to react-router. I always wanted to learn styled-components and building a project is a practical way to learn it.
+The only challenge I faced is using styled-components, it was intimidating at first and since I used regular CSS and SASS it was weird without any classnames. Atleast styled-components are similar to SASS in terms of nesting. I also need to get used to the different folder structure you make while using styled-components. Anyways I refered to this doc - [styled component doc](https://styled-components.com/).
 
 
-## Like this project?
-<a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
+[Click here to see the live demo](https://ultra-b73fc5.netlify.app/)
 
-## Credits
-##### Free CSS 
-<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
+# Tech Stack
+* React
+* Styled Components
+* React Router
+* React Hooks
 
-##### Issaaf kattan
+# Screenshot
+<img src="./UltraDesktop.png" alt="the screenshot of the app large screen"/>
+<img src="./UltraIPhone.png" alt="the screenshot of the app large screen"/>
+
+# Credits
+@briandesign
