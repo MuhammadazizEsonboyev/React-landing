@@ -8,20 +8,18 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  NavItemBtn,
-  NavBtnLink
 } from './Navbar.elements'
 import { FaTimes, FaBars } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
-import { Button } from '../../globalStyles'
 
 function Navbar () {
   const [click, setClick] = useState(false)
   const [button, setButton] = useState(true)
-
+  console.log(button);
   const [homeClick, setHomeClick] = useState(false)
   const [servicesClick, setServicesClick] = useState(false)
   const [productsClick, setProductsClick] = useState(false)
+  console.log(productsClick);
 
   console.log(servicesClick)
   const handleHomeClick = () => {
@@ -29,11 +27,7 @@ function Navbar () {
     setProductsClick(false)
     setServicesClick(false)
   }
-  const handleProductsClick = () => {
-    setHomeClick(false)
-    setProductsClick(true)
-    setServicesClick(false)
-  }
+
 
   const handleClick = () => setClick(!click)
 
@@ -61,7 +55,6 @@ function Navbar () {
           <NavbarContainer>
             <NavLogo to='/'>
               <NavIcon />
-              
             </NavLogo>
             <HamburgerIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -72,29 +65,6 @@ function Navbar () {
                   Home
                 </NavLinks>
               </NavItem>
-
-              <NavItem
-                onClick={handleProductsClick}
-                productsClick={productsClick}
-              >
-                <NavLinks to='/Products' onClick={closeMobileMenu}>
-                  Products
-                </NavLinks>
-              </NavItem>
-
-              <NavItemBtn>
-                {button ? (
-                  <NavBtnLink to='/sign-up'>
-                    <Button primary>SIGN UP</Button>
-                  </NavBtnLink>
-                ) : (
-                  <NavBtnLink to='/sign-up'>
-                    <Button onClick={closeMobileMenu} fontBig primary>
-                      SIGN UP
-                    </Button>
-                  </NavBtnLink>
-                )}
-              </NavItemBtn>
             </NavMenu>
           </NavbarContainer>
         </Nav>
